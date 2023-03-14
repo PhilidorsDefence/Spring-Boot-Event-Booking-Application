@@ -35,4 +35,17 @@ Event deletion should prompt the user for confirmation before deleting.
 **User Dashboard:** Authenticated users should be able to view a dashboard showing their upcoming events and tickets.
 
 **Deployment:** The application should be deployable to a cloud platform like Heroku or AWS.
-These project requirements are simple enough for a junior developer to implement and will showcase their ability to create a basic Spring Boot web application for event registration. Good luck with your project!
+These project requirements are simple enough for a junior developer to implement and will showcase their ability to create a basic Spring Boot web application for event registration.
+
+## Spring Boot Dependencies
+**Spring Boot Starter Web:** This dependency provides the necessary components for building web applications using Spring MVC.
+
+**Spring Boot Starter Thymeleaf:** This dependency provides the Thymeleaf template engine, which is a popular choice for building web pages in Spring Boot.
+
+**Spring Boot Starter Data JPA:** This dependency provides the necessary components for working with relational databases using the Java Persistence API (JPA).
+
+**Spring Boot Starter Security:** This dependency provides the necessary components for adding security to your Spring Boot application.
+
+**H2 Database:** This is an in-memory database that can be used for development and testing purposes.
+
+**Spring Boot DevTools:** This dependency provides useful development tools that can help with hot reloading, among other things.

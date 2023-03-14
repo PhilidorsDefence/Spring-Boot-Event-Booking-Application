@@ -27,7 +27,7 @@ public class User {
     private String password;
 
     public User(String name, String email, String password) {
-        name = name;
+        this.name = name;
         this.email = email;
         this.password = password;
     }
@@ -37,7 +37,7 @@ public class User {
     }
 
     public void setName(String name) {
-        name = name;
+        this.name = name;
     }
 
     public String getEmail() {

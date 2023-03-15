@@ -1,4 +1,4 @@
-package com.jamesjian.ticketbooking.User;
+package com.jamesjian.ticketbooking.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

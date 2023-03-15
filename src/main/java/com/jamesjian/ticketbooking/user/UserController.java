@@ -1,4 +1,4 @@
-package com.jamesjian.ticketbooking.User;
+package com.jamesjian.ticketbooking.user;
 
 import com.jamesjian.ticketbooking.exception.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.jamesjian.ticketbooking.User;
+package com.jamesjian.ticketbooking.user;
 
 import jakarta.persistence.*;
 import org.hibernate.validator.constraints.Email;
@@ -11,7 +11,7 @@ import javax.validation.constraints.Size;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private final Long id;
 
     @NotBlank(message = "Name is mandatory")
     private String name;
@@ -24,6 +24,13 @@ public class User {
     @NotBlank(message = "Password is mandatory")
     @Size(min = 6, message = "Password should have at least 6 characters")
     private String password;
+
+    public User(Long id, String name, String email, String password) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
 
     public String getEmail() {
         return email;
